@@ -1,0 +1,24 @@
+.TinyMDE {
+    background-color: transparent;
+}
+
+.TMCommandBar {
+    background-color: var(--color-gray-lightest);
+}
+
+.TMCommandButton {
+    &:hover {
+        fill: var(--color-blue);
+        color: var(--color-blue);
+        background-color: var(--color-gray-light);
+    }
+}
+.TMCommandButton_Active {
+    fill: var(--color-blue);
+    color: var(--color-blue);
+    background-color: var(--color-gray-light);
+}
+
+.TMMark_TMH1, .TMMark_TMH2, .TMMark_TMOL, .TMMark_TMUL {
+    color: var(--color-green);
+}
